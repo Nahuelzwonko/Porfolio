@@ -1,0 +1,19 @@
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--trasparente);
+  padding-inline-end: 50px;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    font-size: 3px;
+  }
+}
+.footer {
+  font-family: var(--fuenteLetraPrincipal);
+  font-size: 1.5rem;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahuel Zwonko</title>
+    <!-- CSS Bootrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Fin framework-->
+    <link rel="stylesheet" href="../style.css">
+    <!--FontSide-->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body role=banner class="cursor">
+    <!--switch black and writhe-->
+    <div>
+        <header role=banner>
+            <dark-light-switch default=true text-on=☀️ text-off=🌛 text-legend=" "></dark-light-switch>
+        </header>
+    </div>
+    <!--Fin de switch-->
+    <!--Foto mia-->
+    <div class="hola is-ligh is-dark ">
+        <div class="card-container">
+            <article class="card">
+                <img src="../img/ImagenMia.jpeg" alt="" class="card__image">
+        </div>
+    </div>
+    <!--Fin de foto mia-->
+    <!--titulo-->
+    <section class="hola is-ligh is-dark ">
+        <div class="titulo">Hi, I’m Nahuel.
+            <div class="titulo titulo"> <br>
+                <span class="titulo__span">Web developer JR.</span>
+            </div>
+    </section>
+    <!--menu circular-->
+    <div>
+        <!--menu contacto-->
+        <div id="circularMenu" class="circular-menu">
+            <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+                <i class="fa fa-plus"></i>
+            </a>
+            <menu class="items-wrapper">
+                <a href="https://www.instagram.com" class="menu-item fa fa-iInstagram icono repet"></a>
+                <a href="#" class="menu-item fa fa-wpp repet icono"></a>
+                <a href="#" class="menu-item fa fa-git repet icono"></a>
+                <a href="#" class="menu-item fa fa-linkedin repet icono"></a>
+            </menu>
+        </div>
+        <!--Fin menu contacto-->
+        <!--menu pagina-->
+        <div id="circularMenu1" class="circular-menu circular-menu-left active">
+            <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+                <i class="fa fa-bars"></i>
+            </a>
+            <menu class="items-wrapper">
+                <a href="#" class="menu-item fa fa-home repet icono "></a>
+                <a href="#portafolio" class="menu-item fa fa-user repet icono"></a>
+                <a href="#ContactUs" class="menu-item fa fa-pie-chart repet icono"></a>
+                <a href="#hire" class="menu-item fa fa-cog repet icono"></a>
+            </menu>
+        </div>
+        <!--Fin menu pagina-->
+    </div>
+    <!--Sobre mi-->
+    <div class="portafolio">
+        <h2 class="portafolio-blast">My portfolio</h2>
+        <p class="portafolioP2">Hola mi nombre es Zwonko Nahuel.</p>
+        <p class="portafolioP">
+            Soy estudiante de esta hermosa profesión de manera autodidactica FRONTEND, me siento muy comodo trabajando
+            con
+            lenguajes como HTML, CSS, JS, SQL y estoy aprendiendo
+            Framewors como React, manujando tambien dependencias como SCSS y GULP. Busco una oportunidad en una empresa
+            donde
+            pueda desempeñar mis conocim,ientos y adquirir nuevos junto a un equipo de trabajo.
+        </p>
+    </div>
+    <!--Fin Sobre mi-->
+    <!--Galeria de trabajos-->
+    <div class="gallery" id="portafolio">
+        <div class="contenedor">
+            <h2 class="subtitulo">My jobs</h2>
+            <div class="contenedor-galeria">
+                <img src="https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/2832061/pexels-photo-2832061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/2356059/pexels-photo-2356059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/1428787/pexels-photo-1428787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/2693529/pexels-photo-2693529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+                <img src="https://images.pexels.com/photos/3022417/pexels-photo-3022417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="" class="img-galeria">
+            </div>
+        </div>
+    </div>
+    <!--Fin de galeria de trabajos-->
+    <!--seccion 2 sobre mis habilidades-->
+    <div class="portafolio2">
+        <h2 class="portafolio-blast2">Mis habilidades</h2>
+        <p class="portafolioP2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa cum iste
+            iusto nam
+            deserunt
+            voluptatibus dignissimos. Necessitatibus, ullam. Repellat architecto veritatis dolore numquam ipsum
+            voluptates suscipit ut consectetur error vero
+            voluptatibus dignissimos. Necessitatibus, ullam. Repellat architecto veritatis dolore numquam ipsum
+            voluptates suscipit ut consectetur error vero.</p>
+    </div>
+    <!--Fin seccion de habilidades-->
+    <!--slider-->
+    <div class="trial-block " id="ContactUs">
+        <h2 class="habilidades">SKILLS</h2>
+        <div class="height450">
+
+            <div class="social-overlap process-scetion mt100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <div class="social-bar">
+                                <div class="social-icons mb-3 iconpad text-center">
+                                    <a class="slider-nav-item"><i class="fab fa-faceboo">⠀</i></a>
+                                    <a class="slider-nav-item "><i class="fab fa-google-plus">⠀</i></a>
+                                    <a class="slider-nav-item"><i class="fab fa-twitter">⠀</i></a>
+                                    <a href="#" target="_blank" class="slider-nav-item"><i
+                                            class="fab fa-instagram">⠀</i></a>
+                                    <a href="#" target="_blank" class="slider-nav-item"><i
+                                            class="fab fa-linkedin">⠀</i></a>
+                                    <a target="_blank" class="slider-nav-item"><i class="fab fa-pinterest">⠀</i></a>
+                                    <a href="#" target="_blank" class="slider-nav-item"><i
+                                            class="fab fa-skype">⠀</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin seccion de slider-->
+    <!--contacto-->
+    <div class="container">
+        <div id="hire" class="contact" role=banner>
+            <h2 class="titulo-contac">Contact Me</h2>
+            <form>
+                <div class="field name-box">
+                    <input type="text" id="name" placeholder="Who Are You?" />
+                    <label for="name">Name</label>
+                    <span class="ss-icon">check</span>
+                </div>
+                <div class="field email-box">
+                    <input type="text" id="email" placeholder="email@email.com" />
+                    <label for="email">Email</label>
+                    <span class="ss-icon">check</span>
+                </div>
+                <div class="field msg-box">
+                    <textarea id="msg" rows="4" placeholder="Your message goes here..."></textarea>
+                    <label for="msg">Msg</label>
+                    <span class="ss-icon">check</span>
+                </div>
+                <input class="button" type="submit" value="Send" />
+            </form>
+        </div>
+    </div>
+    <!--Fin seccion de contacto-->
+    <div class="container">
+        <footer>
+            <p class="footer">Todos los derechos reservados a ©NahuelZwonko</p>
+        </footer>
+    </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script type="module" src="../js/swicht.js"></script>
+<script type="modele" src="../js/galeria.js"></script>
+<script type="modele" src="../js/contacto.js"></script>
+
+</html>

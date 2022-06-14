@@ -1,0 +1,71 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--fuenteLetraPrincipal);
+}
+h1 {
+  font-size: 4.8rem;
+  font-family: var(--fuenteLetraPrincipal);
+}
+h2 {
+  font-size: 4rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+h3 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+h4 {
+  font-size: 2.8rem var(--FuenteParrafo);
+}
+img {
+  max-width: 100%;
+}
+p {
+  text-align: left;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1 rem 10px*/
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+.cursor {
+  cursor: url("https://img.icons8.com/nolan/32/hand-cursor.png"), auto;
+}
+/*Globales icono redes sociales*/
+.fa-iInstagram {
+  background-image: url("/img/iconos/icons8-instagram-48.png");
+}
+.fa-wpp {
+  background-image: url("../img/iconos/icons8-whatsapp-40.png");
+}
+.fa-git {
+  background-image: url("../img/iconos/icons8-linkedin-rodeado-de-círculo-48.png");
+}
+.fa-linkedin {
+  background-image: url("../img/iconos/icons8-linkedin-rodeado-de-círculo-48.png");
+}
+/*inicio*/
+.fa-home {
+  background-image: url("../img/icono-inicio/icons8-buscar-en-el-navegador-50.png");
+}
+.fa-user {
+  background-image: url("../img/icono-inicio/icons8-portafolio-50\ \(2\).png");
+}
+.fa-pie-chart {
+  background-image: url("../img/icono-inicio/icons8-buscar-en-el-navegador-50.png");
+}
+.fa-cog {
+  background-image: url("../img/icono-inicio/icons8-contactos-duplicados-50.png");
+}
