@@ -6,15 +6,16 @@
   padding: 50px 0 110px;
   width: 80%;
   max-width: 1000px;
+  .titulo-contac {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: var(--fuenteLetraPrincipal);
+    font-weight: 100%;
+  }
 }
-.titulo-contac {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 4em;
-  text-transform: uppercase;
-  font-family: var(--fuenteLetraPrincipal);
-  font-weight: 100%;
-}
+
 @media (max-width: 768px) {
   .titulo-contac {
     margin-bottom: 40px;
