@@ -27,13 +27,14 @@ button {
   border-radius: 50%;
   position: absolute;
   border: 1px solid var(--amarillo);
+  .hola {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuenteLetraPrincipal);
+    font-size: 3rem;
+  }
 }
-.hola {
-  display: flex;
-  justify-content: center;
-  font-family: var(--fuenteLetraPrincipal);
-  font-size: 3rem;
-}
+
 @media (max-width: 768px) {
   .hola {
     padding: 1px;
