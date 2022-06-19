@@ -1,3 +1,4 @@
+@use 'font';
 /*Titulo */
 //corregido verificar
 .titulo {
@@ -5,7 +6,7 @@
   overflow: hidden;
   padding: 5rem;
   font-size: 5.4rem;
-  font-family: var(--funeteSecundaria);
+  font-family: font.$fontTitulo;
   .titulo__span {
     display: inline-block;
   }

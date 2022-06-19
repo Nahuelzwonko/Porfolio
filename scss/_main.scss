@@ -1,20 +1,22 @@
+@use 'color';
 /*menu*/
 .circular-menu {
   position: fixed;
   bottom: 3em;
   right: 3em;
-  .circular-menu .floating-btn {
-    display: block;
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    background-color: var(--amarillo);
-    color: var(--trasparente);
-    text-align: center;
-    line-height: 3.9;
-    cursor: pointer;
-    outline: 0;
-  }
+  
+}
+.circular-menu .floating-btn {
+  display: block;
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  background-color: color.$black-shadows;
+  color: color.$trasparente;
+  text-align: center;
+  line-height: 3.9;
+  cursor: pointer;
+  outline: 0;
 }
 
 .circular-menu.active .floating-btn {
@@ -44,7 +46,7 @@
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: var(--purpeT);
+  background-color: color.$black-shadows;
   transition: all 0.3s ease;
 }
 
@@ -72,14 +74,14 @@
   border-radius: 50%;
   text-align: center;
   line-height: 1;
-  background-color: var(--purpeT);
+  background-color: color.$black-shadows;
   transition: transform 0.3s ease, background 0.5s ease;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .circular-menu .menu-item:hover {
-  background-color: var(--amarillo);
+  background-color: color.$mountbatten-pink;
 }
 
 .circular-menu.active .menu-item {
@@ -109,11 +111,11 @@
 }
 
 .circular-menu.circular-menu-left .floating-btn {
-  background-color: var(--amarillo);
+  background-color: color.$black-shadows;
 }
 
 .circular-menu.circular-menu-left:after {
-  background-color: var(--purpeT);
+  background-color: color.$black-shadows;
 }
 
 .circular-menu.circular-menu-left.active .floating-btn i {

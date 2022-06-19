@@ -14,13 +14,13 @@ h4 {
 
 h1 {
   font-size: 4.8rem;
-  font-family: var(--fuenteLetraPrincipal);
 }
 
 h2 {
   font-size: 4rem;
   padding: 1rem;
   text-align: left;
+  font-family: "Lato", sans-serif;
 }
 
 h3 {
@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2.8rem var(--FuenteParrafo);
+  font-size: 2.8rem;
 }
 
 img {
@@ -38,6 +38,7 @@ img {
 
 p {
   text-align: left;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 html {
@@ -88,6 +89,7 @@ a {
   background-image: url("../img/icono-inicio/icons8-contactos-duplicados-50.png");
 }
 
+/* SCSS HEX */
 :root {
   /*funtes primarias*/
   --fuenteLetraPrincipal: "Lato";
@@ -102,7 +104,6 @@ a {
   --purpeT: rgba(141, 138, 141, 0.64);
   --font-color: #000000;
   --negro: #0a0a0a;
-  --amarillo: rgba(162, 0, 255, 0.965);
   --naranja: #f67e0e;
   --azul: #1844a39f;
   --azulado: #313a3d;
@@ -122,13 +123,14 @@ $jet: #373737ff;
   bottom: 3em;
   right: 3em;
 }
-.circular-menu .circular-menu .floating-btn {
+
+.circular-menu .floating-btn {
   display: block;
   width: 7em;
   height: 7em;
   border-radius: 50%;
-  background-color: var(--amarillo);
-  color: var(--trasparente);
+  background-color: #b5a1a7;
+  color: rgba(255, 255, 255, 0);
   text-align: center;
   line-height: 3.9;
   cursor: pointer;
@@ -162,7 +164,7 @@ $jet: #373737ff;
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: var(--purpeT);
+  background-color: #b5a1a7;
   transition: all 0.3s ease;
 }
 
@@ -190,14 +192,14 @@ $jet: #373737ff;
   border-radius: 50%;
   text-align: center;
   line-height: 1;
-  background-color: var(--purpeT);
+  background-color: #b5a1a7;
   transition: transform 0.3s ease, background 0.5s ease;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .circular-menu .menu-item:hover {
-  background-color: var(--amarillo);
+  background-color: #997d8c;
 }
 
 .circular-menu.active .menu-item {
@@ -227,11 +229,11 @@ $jet: #373737ff;
 }
 
 .circular-menu.circular-menu-left .floating-btn {
-  background-color: var(--amarillo);
+  background-color: #b5a1a7;
 }
 
 .circular-menu.circular-menu-left:after {
-  background-color: var(--purpeT);
+  background-color: #b5a1a7;
 }
 
 .circular-menu.circular-menu-left.active .floating-btn i {
@@ -339,9 +341,11 @@ button {
   transform-style: preserve-3d;
   position: relative;
   transition: trasform 0.075s cubic-bezier(0.4, 0.03, 0.5, 0.9);
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 @media (max-width: 420px) {
-  .card-container .card {
+  .card-container .card .card {
     width: 11rem;
     height: 17rem;
     transform-style: preserve-3d;
@@ -360,11 +364,11 @@ button {
   backface-visibility: hidden;
   border-radius: 1rem 2rem 4rem;
 }
-.card-container .card__image .card__image:nth-child(2),
-.card-container .card__image .card:hover {
+
+.card__image:nth-child(2),
+.card:hover {
   object-fit: cover;
   transform: scale(1.15);
-  outline: 1px solid var(--colorblanco);
   outline-offset: 8px;
   border-radius: 1rem 2rem 4rem;
 }
@@ -559,7 +563,7 @@ footer {
   overflow: hidden;
   padding: 5rem;
   font-size: 5.4rem;
-  font-family: var(--funeteSecundaria);
+  font-family: "Calligraffitti", cursive;
 }
 .titulo .titulo__span {
   display: inline-block;
@@ -650,7 +654,6 @@ footer {
   background-color: transparent;
   width: 90%;
   height: 100%;
-  font-family: var(--funeteSecundaria);
   padding: 3%;
 }
 .portafolio .portafolio-blast {
@@ -667,7 +670,6 @@ footer {
 }
 .portafolio .portafolioP {
   font-size: 2rem;
-  font-family: var(--fuenteLetraPrincipal);
   text-align: center;
 }
 
@@ -700,7 +702,6 @@ footer {
   background-color: transparent;
   width: 90%;
   height: 100%;
-  font-family: var(--FuenteParrafo);
 }
 .portafolio2 .portafolio-blast2 {
   text-align: end;

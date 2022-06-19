@@ -1,7 +1,7 @@
 //globales
 @use 'scss/global';
 //colores
-@use 'scss/color';
+@use 'scss/color' ;
 //main
 @use 'scss/main';
 //Style 
@@ -22,3 +22,6 @@
 @use 'scss/social';
 //galery
 @use 'scss/galery';
+//tipografia
+@use  'scss/font';
+
