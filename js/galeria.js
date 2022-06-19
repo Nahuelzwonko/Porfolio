@@ -1,15 +1,13 @@
 const imagenes = document.querySelectorAll('.img-galeria');
-const imagenesLight = document.querySelector('.agregar-imagen');
+const imagenesLight = document.querySelector('.agregar-imagen');//funcion llama a objeto remarcado abajo
 const contenedorLight = document.querySelector('.imagen-light');
 
-imagenes.forEach(imagen => {
+imagenes.forEach(imagen => { //crea nueva funcion indicando posterior de imagen 
     imagen.addEventListener('click', () => {
-        aparecerImagen(imagen.getAttribute('src'))
-
+        aparecerImagen(imagen.getAttribute('src')) //agrnadamiento de la imagen 
     })
 })
-
-contenedorLight.addEventListener('click', (e) => {
+contenedorLight.addEventListener('click', (e) => { //fincion demarcada por hover al proceder al click
     if (e.target !== imagenesLight) {
         contenedorLight.classList.remove('show');
         imagenesLight.classList.remove('showImage');

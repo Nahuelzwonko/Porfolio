@@ -1,28 +1,24 @@
-// Globales
-@use "scss/componentes";
-//Estilos
-@use "scss/estilos";
-//Globales
-@use "scss/globales";
-//Menu
-@use "scss/menu";
-//Galeria
-@use "scss/galeria";
-//Contacto
-@use "scss/_contacto";
-//Colores
-@use "scss/colores";
+//globales
+@use 'scss/global';
+//colores
+@use 'scss/color';
+//main
+@use 'scss/main';
+//Style 
+@use 'scss/styles';
 //Switch
-@use "scss/switch.scss";
-//FotoMia
-@use "scss/fotoMia";
-//Titulo
-@use  "scss/titulo";
-//SobreMi
-@use "scss/sobreMi";
-//slider 
-@use  "scss/slider";
-//Social
-@use "scss/social";
-//Footer
-@use "scss/footer";
+@use 'scss/switch';
+//My pic
+@use 'scss/pic';
+//contact
+@use 'scss/contact';
+//footer
+@use 'scss/footer';
+//title
+@use  'scss/title';
+//My porfile
+@use 'scss/miP';
+//social
+@use 'scss/social';
+//galery
+@use 'scss/galery';

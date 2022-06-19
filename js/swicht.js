@@ -76,7 +76,7 @@ export class Switcher extends HTMLElement {
         this.value = this.state;
 
         if (this.supportsMediaColorScheme) {
-            this.darkModeMediaQuery.addListener(this.systemQuery);
+            this.darkModeMediaQuery.addListener(this.systemQuery); //ver por que ass.Litener esta causando falla al dar click al swi.
         }
     }
 
