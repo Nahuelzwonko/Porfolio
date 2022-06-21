@@ -4,6 +4,7 @@
   position: fixed;
   bottom: 3em;
   right: 3em;
+  border: none;
   
 }
 .circular-menu .floating-btn {
@@ -11,6 +12,7 @@
   width: 7em;
   height: 7em;
   border-radius: 50%;
+  border: 1px solid black;
   background-color: color.$black-shadows;
   color: color.$trasparente;
   text-align: center;
@@ -20,16 +22,17 @@
 }
 
 .circular-menu.active .floating-btn {
-  box-shadow: inset 0 0 3px var(--colorblanco);
+  box-shadow: inset 0 0 3px white;
 }
 
 .circular-menu .floating-btn:active {
-  box-shadow: 0 4px 8px 0 var(--negro);
+  box-shadow: 0 4px 8px 0 white;
 }
 
 .circular-menu .floating-btn i {
   font-size: 1.3em;
   transition: transform 1s;
+  
 }
 
 .circular-menu.active .floating-btn i {
@@ -48,6 +51,7 @@
   z-index: -2;
   background-color: color.$black-shadows;
   transition: all 0.3s ease;
+  border:0.1px solid rgba(110, 103, 103, 0.303);
 }
 
 .circular-menu.active:after {
@@ -58,6 +62,7 @@
 .circular-menu .items-wrapper {
   padding: 0;
   margin: 0;
+ 
 }
 
 .circular-menu .menu-item {
@@ -67,17 +72,18 @@
   z-index: -1;
   display: block;
   text-decoration: none;
-  color: var(--amarillo);
   font-size: 1em;
   width: 7em;
   height: 7em;
   border-radius: 50%;
   text-align: center;
   line-height: 1;
-  background-color: color.$black-shadows;
-  transition: transform 0.3s ease, background 0.5s ease;
+  background-color: color.$mountbatten-pink;
+  transition: transform 0.3s ease, background 4s ease; //movimiento de iconos
   background-repeat: no-repeat;
   background-position: center;
+  border: 0.1px solid black; // color de fondo de los iconos
+
 }
 
 .circular-menu .menu-item:hover {
@@ -108,6 +114,7 @@
 .circular-menu.circular-menu-left {
   right: auto;
   left: 1em;
+ 
 }
 
 .circular-menu.circular-menu-left .floating-btn {

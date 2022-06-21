@@ -7,29 +7,26 @@
   background-color: transparent;
   width: 90%;
   height: 100%;
-
   padding: 3%;
   .portafolio-blast {
     font-size: 5rem;
-    padding: 5rem;
+    text-align: end;
   }
   @media (max-width: 768px) {
     .portafolio-blast {
-      display: flex;
-      justify-content: center;
+     
       text-align: center;
-      font-size: 4rem;
     }
   }
-  .portafolioP {
-    font-size: 2rem;
-    text-align: center;
-  }
+}
+.portafolioP {
+  font-size: 2rem;
+  text-align: start;
 }
 @media (max-width: 768px) {
   .portafolioP {
     font-size: 2rem;
-    text-align: start;
+    text-align: center;
     padding: 2px;
   }
 }
@@ -37,14 +34,16 @@
   font-size: 2rem;
   font-family: var(--fuenteLetraPrincipal);
   justify-content: flex-start;
+  padding: 0%;
+  text-align: start;
 }
 
 @media (max-width: 768px) {
   .portafolioP2 {
-    text-align: start;
     font-size: 2rem;
     width: 100%;
-    padding: 6%;
+    text-align: center;
+    
   }
 }
 /*Segundo parrafo modificado*/
